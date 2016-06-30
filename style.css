@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.titulo1, .titulo2, .titulo3 {
+    font-weight: 600;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    margin-top: 16px;
+}
+
+p{
+    background-color: #999999;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+h2{
+    text-align: center;
+    font-size: 175%;
+}
+
+.titulo1{
+    background-color: #d59898;
+    float: right;
+    width: 120px;
+    text-align: center;
+    font-size: 125%;
+}
+
+.titulo2{
+    background-color: #c14543;
+    color: white;
+    float: right;
+    width: 120px;
+    text-align: center;
+    font-size: 125%;
+}
+
+.titulo3{
+    background-color: #e5d198;
+    float: right;
+    width: 120px;
+    text-align: center;
+    font-size: 125%;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .blocos1, .blocos2, .blocos3 {
+    width: 30%;  
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   .blocos1, .blocos2 {
+    width: 45%;  
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+    }
+    
+    .blocos3 {
+        width: 94%;
+        display: inline-block;
+        float: left;
+        margin-left: 30px;
+    }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+    .blocos1, .blocos2, .blocos3 {
+    width: 85%;  
+    float: left;
+    margin-right: 40px;
+    margin-left: 40px;
+    }
+}
+
